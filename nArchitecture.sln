@@ -35,15 +35,20 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\demoProjects\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kodlama.io.Devs", "Kodlama.io.Devs", "{E067BF53-9A38-4ED7-B431-409C8F9C3AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\demoProjects\Kodlama.io.Devs\Application\Application.csproj", "{80D31FF0-86A5-41B2-B9C6-56A68A58A352}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\demoProjects\Kodlama.io.Devs\Application\Application.csproj", "{80D31FF0-86A5-41B2-B9C6-56A68A58A352}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\demoProjects\Kodlama.io.Devs\Domain\Domain.csproj", "{835E146B-474C-4E7D-B3B1-0BB8F86798D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\demoProjects\Kodlama.io.Devs\Domain\Domain.csproj", "{835E146B-474C-4E7D-B3B1-0BB8F86798D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\demoProjects\Kodlama.io.Devs\Persistence\Persistence.csproj", "{6E516CA4-E5D0-423F-ACFA-8F9504CF786F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\demoProjects\Kodlama.io.Devs\Persistence\Persistence.csproj", "{6E516CA4-E5D0-423F-ACFA-8F9504CF786F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "src\demoProjects\Kodlama.io.Devs\Infrastructure\Infrastructure.csproj", "{64CD56E4-5C42-4653-B42C-374B97451AB1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\demoProjects\Kodlama.io.Devs\Infrastructure\Infrastructure.csproj", "{64CD56E4-5C42-4653-B42C-374B97451AB1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAPI", "src\demoProjects\Kodlama.io.Devs\WebAPI\WebAPI.csproj", "{5737E59F-BE2E-440A-B0CC-31CD619796B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\demoProjects\Kodlama.io.Devs\WebAPI\WebAPI.csproj", "{5737E59F-BE2E-440A-B0CC-31CD619796B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{27CCEBCE-25B7-4E49-A91A-1DEF7569E180}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
