@@ -14,7 +14,7 @@ namespace WebAPI.Controllers
     public class AuthController : BaseController
     {
         [HttpPost("Register")]
-        public async Task<IActionResult> Register(UserForRegisterDto userForRegisterDto)
+        public async Task<IActionResult> Register([FromBody] UserForRegisterDto userForRegisterDto)
         {
             RegisterCommand registerCommand = new()
             {
@@ -23,7 +23,7 @@ namespace WebAPI.Controllers
             };
             RegisterDto result= await Mediator.Send(registerCommand);
             setRefreshTokenCookie(result.RefreshToken);
-            return Created("", result);
+            return Created("", result.AccessToken);
 
         }
         private void setRefreshTokenCookie(RefreshToken refreshToken)
